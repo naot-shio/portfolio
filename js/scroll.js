@@ -1,7 +1,7 @@
 const container = document.querySelector('.container')
 const side = container.getBoundingClientRect()
 let viewHeight;
-side.width < 400 ? viewHeight = side.height - 30 : viewHeight = side.height;
+side.width < 400 ? viewHeight = side.height - 100 : viewHeight = side.height;
 
 const scroll = (duration, targetPage) => {
   const currentPosition = window.pageYOffset - viewHeight;
