@@ -171,6 +171,13 @@ body:after {
   height: 5vh;
   text-align: center; }
 
+.fa-angle-double-down:hover {
+  border-radius: 50%;
+  background: rgba(255, 255, 245, 0.6);
+  width: 3.1rem;
+  height: 2.5rem;
+  padding-top: 0.6rem; }
+
 .scroll-btn {
   font-size: 2rem;
   padding: 0 0.5rem;
@@ -257,13 +264,6 @@ hr {
   background: #303030;
   color: #fafafa; }
 
-.fa-angle-double-down:hover {
-  border-radius: 50%;
-  background: rgba(255, 255, 245, 0.6);
-  width: 3.1rem;
-  height: 2.5rem;
-  padding-top: 0.6rem; }
-
 .contact-container {
   height: 75vh;
   text-align: center; }
@@ -321,6 +321,8 @@ footer {
   .title {
     padding-top: 3rem;
     font-size: 1.5rem; }
+  .card a {
+    display: none; }
   #about-me-content {
     line-height: 1.3rem;
     font-size: 1rem;
