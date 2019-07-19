@@ -1,0 +1,89 @@
+@include mediaMd {
+  .scroll-btn {
+    font-size: 1.8rem;
+    padding: 0 0.15rem;
+  }
+
+  .title {
+    padding-top: 3rem;
+    font-size: 1.5rem;
+  }
+
+  #about-me-content {
+    line-height: 1.3rem;
+    font-size: 1rem;
+    padding: 1.1rem;
+  }
+}
+
+@include mediaSm {
+  .heading {
+    font-size: 2rem;
+    padding-top: 10rem;
+    margin-bottom: 1rem;
+  }
+
+  .icons {
+    width: 60%;
+    color: $ivory;
+  }
+
+  .scroll-btn-container {
+    width: 80%;
+  }
+
+  .scroll-btn {
+    font-size: 1.3rem;
+  }
+
+  .card,
+  .contact-card {
+    width: 80%;
+  }
+
+  .title {
+    padding-top: 3rem;
+    font-size: 1.5rem;
+  }
+
+  #about-me-content {
+    line-height: 1.3rem;
+    font-size: 1rem;
+    padding: 1.1rem;
+  }
+
+  .work-contents {
+    height: 70%;
+  }
+
+  .work-contents {
+    padding: 1rem 0;
+    display: block;
+  }
+
+  .work-content1 {
+    display: block;
+    text-align: center;
+
+    & .left {
+      width: 97%;
+      padding: 0 0.3rem;
+    }
+
+    & .right {
+      width: 97%;
+    }
+  }
+
+  .work-content2 {
+    display: none;
+  }
+
+  .menu-branding {
+    & .profile {
+      width: 100px;
+      height: 100px;
+      background: $profile-small-image;
+    }
+  }
+}

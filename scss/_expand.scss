@@ -1,0 +1,13 @@
+@keyframes expand-from-center {
+  0% {
+    letter-spacing: -0.5em;
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  80% {
+    filter: blur(0px);
+    opacity: 1;
+    letter-spacing: 0.5em;
+  }
+}
