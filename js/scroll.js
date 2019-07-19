@@ -1,12 +1,5 @@
-// Add 1 just to adjust the distance of scrolling
-let viewHeight;
-
-if( (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1) ) {
-  viewHeight = screen.height;
-} else {
-  viewHeight = window.innerHeight + 1;
-}
-
+const container = document.querySelector('.container')
+const viewHeight = container.getBoundingClientRect().height;
 
 const scroll = (duration, targetPage) => {
   const currentPosition = window.pageYOffset - viewHeight;
