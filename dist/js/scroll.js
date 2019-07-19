@@ -1,6 +1,8 @@
+const container = document.querySelector('.container');
+const side = container.getBoundingClientRect();
+let viewHeight = side.height;
+
 const scroll = (duration, targetPage) => {
-  // Add 1 just to adjust the distance of scrolling
-  const viewHeight = window.innerHeight + 1;
   const currentPosition = window.pageYOffset - viewHeight;
   const targetPosition = viewHeight * targetPage;
   const startPosition = viewHeight + currentPosition;
