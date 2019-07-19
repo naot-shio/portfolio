@@ -117,7 +117,8 @@ body {
   background: url(../img/background-image.jpg);
   background-attachment: fixed;
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  background-repeat: none; }
   body:after {
     content: '';
     position: fixed;
