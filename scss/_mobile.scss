@@ -52,31 +52,9 @@
     padding: 1.1rem;
   }
 
-  .work-contents {
-    height: 70%;
-  }
-
-  .work-contents {
-    padding: 1rem 0;
-    display: block;
-  }
-
-  .work-content1 {
-    display: block;
-    text-align: center;
-
-    & .left {
-      width: 97%;
-      padding: 0 0.3rem;
-    }
-
-    & .right {
-      width: 97%;
-    }
-  }
-
-  .work-content2 {
-    display: none;
+  .bottom {
+    line-height: 1.3rem;
+    font-size: 1rem;
   }
 
   .menu-branding {

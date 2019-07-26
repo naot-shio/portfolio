@@ -150,7 +150,7 @@ body:before {
     margin: 0 0.3rem; }
     .icons .fab:hover,
     .icons .fas:hover {
-      color: #0d98ba;
+      color: #FFFF4d;
       transition: all 0.5s ease-out; }
 
 .scroll-btn-container {
@@ -204,45 +204,29 @@ hr {
   font-size: 1.2rem;
   padding: 2rem; }
 
-.passion-contents {
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-areas: "passion-content passion-content" "passion-content passion-content";
-  grid-template-columns: repeat(2, 1fr);
-  text-align: center;
-  height: 50%;
-  padding-top: 4rem; }
-
 .work-contents {
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-areas: "work-content" "work-content";
-  grid-template-columns: repeat(1, 1fr);
-  padding: 4rem 0;
+  margin: 1rem 2rem;
   height: 50%; }
 
-.work-content1,
-.work-content2 {
-  display: flex; }
-
-.left {
-  width: 30%;
-  margin: 0;
-  padding-left: 0.5rem; }
-  .left img {
-    width: 100%; }
-
-.right {
-  width: 70%;
-  padding: 0 0.5rem; }
+.top {
+  margin: '1rem 2rem'; }
+  .top img,
+  .top a {
+    width: 80%;
+    padding: 0; }
 
 .btn, .btn-light, .btn-dark {
   display: block;
   border: none;
   text-align: left;
-  padding-left: 0.3rem; }
+  margin: 0 auto; }
   .btn:hover, .btn-light:hover, .btn-dark:hover {
     background: rgba(30, 144, 255, 0.6); }
+  .btn .fas, .btn-light .fas, .btn-dark .fas,
+  .btn .fab,
+  .btn-light .fab,
+  .btn-dark .fab {
+    padding: 0 10px; }
 
 .btn-light {
   background: #FFFFF5;
@@ -253,6 +237,13 @@ hr {
 .btn-dark {
   background: #303030;
   color: #fafafa; }
+
+.bottom {
+  margin: 1rem auto;
+  width: 80%;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem; }
 
 .contact-container {
   height: 75vh;
@@ -315,21 +306,9 @@ footer {
     line-height: 1.3rem;
     font-size: 1rem;
     padding: 1.1rem; }
-  .work-contents {
-    height: 70%; }
-  .work-contents {
-    padding: 1rem 0;
-    display: block; }
-  .work-content1 {
-    display: block;
-    text-align: center; }
-    .work-content1 .left {
-      width: 97%;
-      padding: 0 0.3rem; }
-    .work-content1 .right {
-      width: 97%; }
-  .work-content2 {
-    display: none; }
+  .bottom {
+    line-height: 1.3rem;
+    font-size: 1rem; }
   .menu-branding .profile {
     width: 100px;
     height: 100px;

@@ -32,11 +32,12 @@ const scrollDown = (selector, targetPage) => {
 };
 
 scrollDown("#scroll-to-about-me", 1);
-scrollDown("#scroll-to-my-passion", 2);
-scrollDown("#scroll-to-works", 3);
+scrollDown("#scroll-to-works", 2);
+scrollDown("#scroll-to-skills", 3);
 scrollDown("#scroll-to-contact", 4);
-scrollDown("#btn-to-my-passion", 2);
-scrollDown("#btn-to-works", 3);
+
+scrollDown("#btn-to-works", 2);
+scrollDown("#btn-to-skills", 3);
 scrollDown("#btn-to-contact", 4);
 
 const navigationFromHeader = (selector, targetPage) => {
@@ -48,6 +49,6 @@ const navigationFromHeader = (selector, targetPage) => {
 };
 
 navigationFromHeader("#nav-to-about-me", 1);
-navigationFromHeader("#nav-to-passion", 2);
-navigationFromHeader("#nav-to-works", 3);
+navigationFromHeader("#nav-to-works", 2);
+navigationFromHeader("#nav-to-skills", 3);
 navigationFromHeader("#nav-to-contact", 4);
